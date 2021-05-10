@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="7dp">
+        <Button
+            android:id="@+id/filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="filter" />
+
+        <Button
+            android:id="@+id/from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fromCallable"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Map" />
+
+        <Button
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First" />
+
+        <Button
+            android:id="@+id/last"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="last" />
+
+        <Button
+            android:id="@+id/reduce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="reduce" />
+
+        <Button
+            android:id="@+id/groupby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Group by" />
+
+        <Button
+            android:id="@+id/concat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="concat" />
+
+        <Button
+            android:id="@+id/merge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Merge" />
+
+        <Button
+            android:id="@+id/zip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="zip" />
+
+        <Button
+            android:id="@+id/min"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="min" />
+
+        <Button
+            android:id="@+id/max"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="max" />
+
+        <Button
+            android:id="@+id/flatMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="flatMap"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/debounce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="debounce" />
+
+        <Button
+            android:id="@+id/count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="count" />
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
